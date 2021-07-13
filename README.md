@@ -40,7 +40,7 @@ For this part of the tutorial you will be given access to an existing cluster. (
 This tutorial consists of an activity to answer the following questions using kubectl that should leverage various commands above.
 
 ### Generic Questions
-These questions can be asked if you are using any cluster.
+These questions can be asked if you are using **any** cluster. Spoiler answers for the provided tutorial cluster.
 #### Nodes
 * How many nodes are in the cluster?
 * How many nodes are worker nodes?
@@ -61,3 +61,5 @@ This is for the in person tutorial scenario where specific access to our cluster
 
 
 ### Replica sets
+* Are there any deployments with more than one replica in the test namespace?
+* 
