@@ -1,1 +1,1 @@
-# k8-demo-3
+# k8s-demo-3
