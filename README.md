@@ -52,7 +52,7 @@ These questions can be asked if you are using any cluster.
 
 
 #### Pods
-
+* How many pods are running in the default namespace?
 
 ### Specific Questions
 This is for the in person tutorial scenario where specific access to our cluster has been given.
