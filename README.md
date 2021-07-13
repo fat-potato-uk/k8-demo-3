@@ -101,7 +101,7 @@ Are there any deployments with more than one replica in the test namespace? If s
 <details>
   <summary>Answer</summary>
 Yes, the Generator has 3 replicas.
-</details> <br>
+</details>
 
 ### Volumes/Config
 
