@@ -1,18 +1,18 @@
 # K8S Tutorial 3
 
 ### Switching context for kubectl
-In order to access a different cluster you need to change kube config files. Kubectl config is by default stored in:
-`~/.kube/config`
-You should already have a config file for minikube so back it up by doing the following command:
-`mv ~/.kube/config ~/.kube/mini-kube-backup`
-This can be restored at any time with (will overwrite any existing config):
-`mv ~/.kube/mini-kube-backup ~/.kube/config`
-
-For our in person tutorials you should be sent an email containing a kube config file. Simply overwrite the default config with:
+In order to access a different cluster you need to change kube config files. Kubectl config is by default stored in: <br/>
+`~/.kube/config`  <br/>
+You should already have a config file for minikube so back it up by doing the following command:  <br/>
+`mv ~/.kube/config ~/.kube/mini-kube-backup`  <br/>
+This can be restored at any time with (will overwrite any existing config):  <br/>
+`mv ~/.kube/mini-kube-backup ~/.kube/config`  <br/>
+ <br/> <br/>
+For our in person tutorials you should be sent an email containing a kube config file. Simply overwrite the default config with:  <br/>
 `mv my-config ~/.kube/config`
-
-You can then test your config with the following command:
-`kubectl version`
+ <br/> <br/>
+You can then test your config with the following command: <br/>
+`kubectl version` <br/> <br/>
 
 **Working output**
 ```
