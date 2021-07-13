@@ -2,9 +2,9 @@
 
 ### Switching context for kubectl
 In order to access a different cluster you need to change kube config files. Kubectl config is by default stored in: <br/>
-`~/.kube/config`  <br/>
+`~/.kube/config`  <br/> <br/>
 You should already have a config file for minikube so back it up by doing the following command:  <br/>
-`mv ~/.kube/config ~/.kube/mini-kube-backup`  <br/>
+`mv ~/.kube/config ~/.kube/mini-kube-backup`  <br/> <br/>
 This can be restored at any time with (will overwrite any existing config):  <br/>
 `mv ~/.kube/mini-kube-backup ~/.kube/config`  <br/>
  <br/> <br/>
