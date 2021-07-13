@@ -30,7 +30,7 @@ The connection to the server localhost:8080 was refused - did you specify the ri
 Once you have successfully added the appropriate kube config file you should be able to interact with the cluster via kubectl.
 
 ### Command Cheat Sheet
-
+An in-depth cheatsheet for kubernetes is available [here](https://kubernetes.io/docs/reference/kubectl/cheatsheet/).
 
 ### Exploring an Existing Cluster
 For this part of the tutorial you will be given access to an existing cluster. (if you are following this indepedently you will need access to a cluster with existing resources and kube-ctl set up).
