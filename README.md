@@ -42,24 +42,64 @@ This tutorial consists of an activity to answer the following questions using ku
 ### Generic Questions
 These questions can be asked if you are using **any** cluster. Spoiler answers for the provided tutorial cluster.
 #### Nodes
-* How many nodes are in the cluster?
-* How many nodes are worker nodes?
-* How many pods are running on the control-plane nodes?
-* What is the hostnames of the nodes with the etcd role?
+**How many nodes are in the cluster?**
+<details>
+  <summary>Answer</summary>
+1
+</details> <br>
+How many nodes are worker nodes?
+<details>
+  <summary>Answer</summary>
+5
+</details> <br>
+How many pods are running on the control-plane nodes?
+<details>
+  <summary>Answer</summary>
+5
+</details> <br>
+What version of kubernetes is running on the nodes with the etcd role?
+<details>
+  <summary>Answer</summary>
+1.19.4
+</details> <br>
 
 #### Namespaces
-* What namespaces are on the cluster?
+What namespaces are on the cluster?
+<details>
+  <summary>Answer</summary>
+cattle-logging
+ cattle-system
+ cert-manager
+ default
+ elastic-system
+ fleet-system
+ infrastructure
+ ingress-nginx
+ kube-node-lease
+ kube-public
+ kube-system
+ observability
+ opentelemetry-operator-system
+ security-scan
+ temp
+ test
+</details> <br>
 
 
 #### Pods
-* How many pods are running in the default namespace?
+How many pods are running in the default namespace?
+<details>
+  <summary>Answer</summary>
+1
+</details> <br>
 
 ### Specific Questions
 This is for the in person tutorial scenario where specific access to our cluster has been given.
 
-### Deployments
-
-
 ### Replica sets
-* Are there any deployments with more than one replica in the test namespace?
-* 
+* Are there any deployments with more than one replica in the test namespace? If so which?
+<details>
+  <summary>Answer</summary>
+Yes, the Generator has 3 replicas.
+</details> <br>
+
