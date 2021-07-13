@@ -97,7 +97,7 @@ How many pods are running in the default namespace?
 This is for the in person tutorial scenario where specific access to our cluster has been given.
 
 ### Replica sets
-* Are there any deployments with more than one replica in the test namespace? If so which?
+Are there any deployments with more than one replica in the test namespace? If so which?
 <details>
   <summary>Answer</summary>
 Yes, the Generator has 3 replicas.
