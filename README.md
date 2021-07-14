@@ -1,6 +1,6 @@
 # K8S Tutorial 3
 ### Prerequisites 
-You will need kubectl installed. You can folow the instructions [here](https://github.com/fat-potato-uk/k8s-demo-1#kubectl).
+You will need kubectl installed. You can follow the instructions [here to install kubectl](https://github.com/fat-potato-uk/k8s-demo-1#kubectl).
 ### Switching context for kubectl
 In order to access a different cluster you need to change kube config files. Kubectl config is by default stored in: <br/>
 `~/.kube/config`  <br/> <br/>
